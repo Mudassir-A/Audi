@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title></title>
+
+    <style>
+        .button {
+            position: relative;
+            background-color: white;
+            border-color: #000;
+            top: 20px;
+            height: 50px;
+            width: 380px;
+            box-shadow: 5px 5px 5px gray;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="button" id="btn1">Information</button>
+    <button class="button" id="btn2">Information</button>
+    <button class="button" id="btn3">Information</button>
+    <button class="button" id="btn4">Information</button>
+
+
+    <script>
+        var btn = document.getElementsByClassName()
+
+        for (let i = 0; i < btn.length; i++) {
+
+            btn[i].addEventListener('mouseover', function () {
+                btn[i].style.backgroundColor = "black";
+                btn[i].style.color = "white"
+                btn[i].style.transition = "0.5s"
+                btn[i].style.boxShadow = "0px 0px 0px"
+                btn[i].style.cursor = "pointer"
+            });
+
+            
+            btn[i].addEventListener('mouseout', function () {
+                btn[i].style.backgroundColor = "white";
+                btn[i].style.color = "black"
+                btn[i].style.transition = "0.5s"
+                btn[i].style.boxShadow = "5px 5px 5px gray"
+            });
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: rgba(170, 174, 175, 0.26);
+}
+.main-image {
+  height: 100%;
+  width: 100%;
+  /* top: -30px; */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main-text {
+  position: absolute;
+  top: 480px;
+  left: 60px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+#b1 {
+  border: none;
+  outline: 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 4px 32px 0px;
+  margin-left: 40px;
+  margin-top: 30px;
+  /* padding: 21px 48px; */
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -55px;
+  left: -40px;
+}
+
+#b1:hover {
+  background-color: #555;
+  color: white;
+}
+
+#b2 {
+  border: solid 1px #000;
+  outline: 0;
+  color: black;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 4px 32px 0px;
+  margin-left: 40px;
+  margin-top: 30px;
+  /* padding: 21px 48px; */
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -55px;
+  left: -80px;
+}
+
+#b2:hover {
+  color: #777;
+}
+
+.model {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.update {
+  background-color: white;
+  position: relative;
+  margin-top: 00px;
+  padding: 0px;
+}
+
+.v10 {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0px;
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+}
+
+.v10 img {
+  float: right;
+}
+.trim {
+  background: white;
+  position: relative;
+}
+.trim img {
+  width: 100%;
+  height: max-content;
+}
+.trim-pick {
+  margin-top: 20px;
+  margin-left: 480px;
+}
+.trim-pick img {
+  height: 20px;
+  /* padding-left: 20px; */
+  margin-left: 20px;
+}
+.vid video {
+  height: 758px;
+}
+.white {
+  background-color: white;
+  position: relative;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.design {
+  height: 500px;
+  width: 100%;
+}
+.design img {
+  float: left;
+}
+
+.audi {
+  height: 500px;
+  width: 100%;
+  margin: 200px 0px;
+  background-color: black;
+  color: white;
+}
+
+.audi img {
+  float: right;
+}
+
+#b3 {
+  border: solid 1px white;
+  outline: 0;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 4px 32px 0px;
+  margin-left: -110px;
+  margin-top: 30px;
+  /* padding: 21px 48px; */
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: -30px;
+  left: 200px;
+}
+
+#b3:hover {
+  color: #777;
+}
+
+.interior {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0px;
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+}
+
+.interior img {
+  float: right;
+}
+
+.beauty {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0px;
+  font-size: larger;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.beauty img {
+  float: left;
+}

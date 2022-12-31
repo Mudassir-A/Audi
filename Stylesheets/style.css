@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body,
+html {
+   font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* background-color: whitesmoke; */
+}
+
+.avs {
+    display: flex;
+    transition: 10s;
+}
+
+.avs img {
+    width: 575px;
+    height: 600px;
+    padding-left: 175px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.avs-text {
+    position: relative;
+    top: 325px;
+    left: 60px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.avs-text button {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    padding: 21px 48px;
+    font-size: 18px;
+}
+
+.avs-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.ar {
+    display: flex;
+    transition: 10s;
+}
+
+.ar img {
+    width: 75%;
+    height: 60%;
+    padding-left: 175px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.ar-text {
+    position: relative;
+    top: 325px;
+    left: 60px;
+    color: black;
+   font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.ar-btn1 {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 00px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.ar-btn1:hover {
+    background-color: #555;
+    color: white;
+}
+
+.ar-btn2 {
+    border: solid 1px #000;
+    outline: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 1px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.ar-btn2:hover {
+    color: #777;
+}
+
+.hero-image {
+    /* background-image: url("../image/audiQ3.jpg"); */
+    height: 95%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    color: black;
+    /*font-family: 'Poppins', sans-serif; */
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    padding: 21px 48px;
+    font-size: 18px;
+}
+
+.hero-text p {
+   font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+.models {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.models img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 100px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.card {
+    position: sticky;
+    max-width: 600px;
+    width: 43%;
+    /* height: 23%; */
+    background-color: white;
+    left: 50px;
+    top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card h1 {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    margin-top: 30px;
+    padding-left: 40px;
+    font-family: "Raleway", sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#b1 {
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+}
+
+#b1:hover {
+    background-color: #555;
+    color: white;
+}
+
+#b2 {
+    border: solid 1px #000;
+    outline: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0px 4px 32px 0px;
+    margin-left: 1px;
+    margin-top: 30px;
+    padding: 21px 48px;
+    font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+}
+
+#b2:hover {
+    color: #777;
+}
+
+.bg-image {
+    height: 80%;
+    padding-block-start: 500px;
+    padding-block-end: 200px;
+    /* background-image: url("../image/E-tronHub-3840X4000.jpg");  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.audi-connect {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: black;
+}
+
+.acimg img {
+    max-width: 100%;
+    float: right;
+    padding-left: 500px;
+}
+
+.acimg {
+    flex-basis: 150%;
+    order: 2;
+}
+
+
+.actext h1 {
+    color: #fff;
+    margin-left: 75px;
+    padding-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.actext h2 {
+    color: #fff;
+    margin-left: 75px;
+    padding-right: 100px;
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+}
+
+.actext button {
+    color: #fff;
+    border-color: white;
+    background-color: #000;
+    margin-left: 75px;
+    padding: 14px 36px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 75px;
+
+}
+
+.actext button:hover {
+    color: #888;
+    border-color: #888;
+    transition: 0.3s;
+}
+
+#acb2 {
+    margin-left: 10px;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.gallery-column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.gallery-column img {
+    cursor: pointer;
+    height: 90%;
+}
+
+.gallery-column h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10;
+    margin-top: 0;
+}
+
+.gallery-column a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.gallerytxt {
+    padding-left: 60px;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.press-column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.press-column img {
+    cursor: pointer;
+    height: 90%;
+}
+
+.press-column h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10;
+    margin-top: 0;
+
+}
+
+.press-column a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.presstxt {
+    margin-top: 75px;
+    padding-left: 60px;
+}
+
+.press-row {
+    display: flex;
+    justify-content: center;
+}

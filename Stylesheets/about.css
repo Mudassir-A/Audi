@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body,
+html {
+ font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* background-color: rgba(170, 174, 175, 0.26); */
+}
+
+.img_border {
+  width: 100%;
+  height: 450px;
+  /* border: solid; */
+  /* border-width: 1px; */
+  border-color: #d3d3d3;
+}
+
+/* .img_border ul li {
+            display: inline;
+            list-style: none;
+            padding: 0px 5px;
+        } */
+/* .sideimg {
+  float: left;
+  width: 50%;
+  height: 50%;
+} */
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.about {
+  height: 800px;
+  width: 100%;
+  margin: 50px 0px;
+  background-color: black;
+}
+.about img {
+  float: right;
+}
+
+.careers {
+  height: 500px;
+  width: 100%;
+  background-color: #ececec;
+}
+
+.careers img {
+  float: left;
+}
+
+button {
+  width: 250px;
+  height: 60px;
+  background-color: #bb082f;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.news {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0px;
+  background-color: #ececec;
+}
+
+.news img {
+  float: right;
+}
+
+.compliance {
+  height: 500px;
+  width: 100%;
+  background-color: #ececec;
+}
+
+.compliance img {
+  float: left;
+}
+
+.audi_ag {
+  height: 500px;
+  width: 100%;
+  margin: 50px 0px;
+  background-color: #ececec;
+}
+
+.audi_ag img {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.discover {
+  margin: 0px 50px;
+}
+
+.discover img {
+  width: 380px;
+  height: 250px;
+  left: 20px;
+  position: relative;
+}
+
+.discover p {
+  display: inline-block;
+  margin: 0px -60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}

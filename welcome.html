@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi India | Welcome</title>
+    <link rel="stylesheet" href="Stylesheets/welcome.css">
+
+    <script>
+        function emailCheck() {
+            var letters = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            var email = document.getElementById("t3").value;
+            if (letters.test(email)) {
+                document.getElementById("m3").value = "";
+
+            }
+            else {
+                document.getElementById("m3").value = "Enter valid Email id!"
+            }
+        }
+        function textSize() {
+            document.getElementById("p1").style = "font-size:18px;  margin: 45px;position: relative; top: 300px; left: 20px;";
+        }
+        function validate() {
+            var msg = document.getElementById("m3").value;
+            if (msg != "Enter valid Email id!") {
+                alert("Login Successful");
+            }
+            window.open("index.html")
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <div class="main-image">
+    </div>
+    <div>
+        <text class="mytext1">Audi ID</text>
+        <text class="mytext2">Welcome</text>
+        <text class="mytext3">to myAudi-Portal</text>
+
+        <form name="f1">
+            <p class="texts" id="p1" style="position: relative; top: 300px; left: 20px;">
+                Email id<br>
+                <input type="text" class="inputs" id="t3" onchange="emailCheck()" onfocus="textSize()">
+                <br><input type="text" class="message" id="m3" value="" readonly="true">
+            </p>
+
+        </form>
+        <button class="block1" id="b1" onclick="validate()">Next</button>
+        <p><a href="createAccount.html"> <button class="block2">Create Account</button></a></p>
+    </div>
+    <div class="base">
+        <div class="end-list">
+            <ul style="color: white;">
+                Imprint &nbsp;&nbsp;
+                Terms of Use &nbsp; &nbsp; Data Privacy Policy &nbsp;&nbsp; Cookie Policy&nbsp;&nbsp;
+                3rdParty Licenses&nbsp;&nbsp;
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

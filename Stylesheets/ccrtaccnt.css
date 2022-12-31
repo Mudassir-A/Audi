@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ 
+body,
+html {
+ font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: rgba(170, 174, 175, 0.26);
+}
+body {
+            display: flex;
+            width: 100%;
+        }
+
+        a {
+            width: 50%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+        a img {
+            width: 100%;
+        }
+
+        #form-container {
+            width: 50%;
+            display: flex;
+            height: 90vh;
+            justify-content: center;
+            /* horizontally */
+            align-items: center;
+            /* vertically */
+        }
+
+        .texts {
+            color: darkslategray;
+          font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            margin: 4px;
+        }
+
+        .inputs {
+            color: rgb(82, 77, 77);
+            background-color: lightgray;
+            width: 60%;
+            padding: 10px;
+            font-size: 22px;
+            border: none;
+            border-bottom: 2px solid rgb(0, 0, 0);
+        }
+
+        .inputs:hover {
+            border-color: dimgray;
+        }
+
+        .inputs:focus {
+            outline: none;
+        }
+
+        .message {
+            color: rgb(82, 77, 77);
+            background-color: lightgray;
+            width: 70%;
+            height: 30px;
+            font-size: large;
+            border: none;
+            font-family: "Montserrat", sans-serif;
+            pointer-events: none;
+        }
+
+        .message:focus {
+            outline: none;
+            border: none;
+        }
+
+        .block1 {
+            border: none;
+            background-color: dimgray;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+            width: 100%;
+            height: 100%;
+            font-family: "Montserrat", sans-serif;
+            z-index: 1;
+        }
+
+        .block1:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        .buttonCont {
+            font-size: 18px;
+            width: 70%;
+            height: 54px;
+            z-index: 0;
+        }
+
+        .block2 {
+            border: solid 1px #000;
+            outline: 0;
+            color: black;
+            background-color: white;
+            text-align: center;
+            cursor: pointer;
+            margin: 0px 4px 32px 0px;
+            padding: 15px 91px;
+            font-size: 18px;
+            width: 70%;
+            height: 10%;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .block2:hover {
+            background-color: white;
+            color: dimgray;
+        }
